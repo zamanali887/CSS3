@@ -1,0 +1,23 @@
+
+
+/* dark coloring */
+header{
+    background-color: #343a40;
+}
+header nav a{
+    background-color:white;
+    color:black;
+}
+main{
+    background-color:#495057;
+}
+h3{
+    color: white;
+}
+table,th.td{
+    color: white;
+}
+footer{
+    color: white;
+    background-color: #343a40;
+}   

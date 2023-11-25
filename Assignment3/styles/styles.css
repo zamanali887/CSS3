@@ -1,0 +1,187 @@
+
+
+/* Font styles links */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+
+/* Our CSS style sheet */
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* header area stating */
+
+header{
+    background-color: white;
+    height: 550px;
+}
+.headerarea{
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+}
+.box1{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.childbox1{
+    margin: 100px 50px;
+    font-family: 'Raleway', sans-serif
+}
+.childp span {
+    font-size:28px;
+}
+.childbox1 p{
+    padding: 8px 0;
+    font-size:22px;
+}
+.childbox1 button{
+    padding: 7px 25px;
+    margin-top: 10px;
+    border: none;
+    font-size: 13px;
+    background-color: #51e5ff;
+    border-radius: 15px;
+    color: white;
+}
+.box1 img{
+    width: 200px;
+    margin:90px 80px;
+    float: right;
+}
+
+/* header area ending */
+
+/* starting main area */
+main{
+    width: 100%;
+    margin-top: -50px;
+}
+.childmain1{
+    width: 100%;
+    height: 550px;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.mainbox{
+    width: 33%;
+    height: 300px;
+    float: left;
+    margin-top: 110px;
+    padding: 70px 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif
+}
+.mainbox1 h1{
+    padding-bottom:20px ;
+    color:lightseagreen;
+}
+.mainbox1 h3{
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+.mainbox1 p{
+    font-size: 18px;
+}
+.childmain2{
+    width: 100%;
+    height: 550px;
+    padding:200px;
+    position: relative;
+    bottom: 40px;
+}
+.childmain1child{
+    text-align: center;
+    font-family: 'Raleway', sans-serif
+}
+.childmain1p span {
+    font-size:36px;
+}
+.childmain1child p{
+    padding: 12px 0;
+    font-size:18px;
+}
+.childmain1child button{
+    padding: 15px 35px;
+    margin-top: 10px;
+    border: none;
+    font-size: 13px;
+    background-color:#51e5ff;
+    border-radius: 28px;
+    color: white;
+}
+/* ending mian area */
+
+/* Footer section startin */
+
+footer{
+    background-image: url("./bg.jpg");
+    width: 100%;
+    height: 900px;
+}
+.footerbox1{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+     position: relative;
+}
+.footertext{
+    width: 100%;
+    height: 160px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    padding-top:60px ;
+}
+.footertext .firstp{
+    font-size: 36px;
+    padding-bottom: 25px;
+}
+.footertext p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.footerbox2{
+    width: 100%;
+    height: auto;
+}
+.footerbox2child{
+    width: 50%;
+    height:350px;
+    float: left;
+    padding: 40px 20px;
+
+}
+.fbox2subchild{
+    width: 100%;
+    height: 280px;
+    border: 3px dashed white;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    line-height: 300px;
+
+
+}
+.footerlink{
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+ /* Endin of footer */

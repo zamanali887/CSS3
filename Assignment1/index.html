@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header class="menu-bar">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="lecture.html">Lecture</a>
+            <a href="assigment.html">Assignment</a>
+            <a href="finalproject.html">Final project</a>
+            <a href="labs.html">Labs</a>
+            <a href="docoments.html">Docs</a>
+        </nav>
+    </header>
+    <main class="hero">
+        <h1 id="heading1">
+            Assignment 2: Static web:HTML /CSS
+        </h1>
+        <p class="timedate"><time>Due Sunday,Januray 9 11:59pm PST</time></p>
+        <h1>
+            Setup
+        </h1>
+        <p>
+            Accept the Github Classroom <span style="color: burlywood;">assigment</span> and clone this repo that
+            contain stencil code for Assignment2.
+        </p>
+        <h1>
+            Introduction
+        </h1>
+        <p>
+            This is multi-parts assigment with the objective of making you comfortable working with HTML and CSS. By the
+            end of this assigment,you will have <br>
+            styled some rectangular blocks and created a simple verion of twitter's home page
+        </p>
+        <p>
+            if this assianment seems overwhelming to vou. please come see a TA at TA hours to talk through some
+            strategies for tackling it. We expect this assionment <br>
+            to be a time-consuming assignment as we cover a lot of tundamental techiniques. but wit a good strategy, it
+            can be tinished in a reasonable amount of time
+        </p>
+        <p>
+            Note: Only CSS and HTML will be used for this assignment. If you want to use JavaScript (or libraries such
+            as ¡Query) then feel free to, but we will only be <br>
+            grading correctness on your CSS and HTML.
+        </p>
+        <p>
+            if you can,<b>Start Early!</b>
+        </p>
+        <h1>
+            Part One
+        </h1>
+        <h2>
+            Specification
+        </h2>
+        <p>
+            Now that you understand some of the basics of HTML and CSS, let's take a look at how to align HTML elements.
+            There are multiple ways to align HTML <br>
+            elements, but in this part, we recommend using flexboxes as they are widely used in modern web development
+            (for example bootstrapv4 is built on top of <br>
+            flexboxes)
+        </p>
+        <p>
+            Refer to this great webpage on how to use flexboxes:<span style="color: burlywood;">CSS Flexbox
+                Guide.</span>
+        </p>
+        <p>
+            Also feel free to use online resources such as Stack Overflow, MDN, W3, and Google for reference.
+        </p>
+        <p>
+            when you open the provided HTML file <span style="color: fuchsia;">part1/index.html,</span> it should lOOk
+            like this
+        </p>
+        <h5>
+            Assignment 1
+        </h5>
+        <h5>
+            Provide Example
+        </h5>
+
+        <h4 style="margin-bottom: 0px;">Row 1</h4>
+        <div class="box1">
+            <div class="childbox1"></div>
+        </div>
+
+        <h4 style="margin-bottom: 0px;">Row 2</h4>
+        <div class="box2">
+            <div class="childbox2"></div>
+        </div>
+
+        <h4>Student TODOs</h4>
+
+        <h4 style="margin-bottom: 0px;">Row 3</h4>
+        <div class="box3">
+        </div>
+
+        <h4 style="margin-bottom: 0px;">Row 4</h4>
+        <div class="box4">
+        </div>
+
+        <h4 style="margin-bottom: 0px;">Row 5</h4>
+        <div class="box5">
+        </div>
+
+        <h4 style="margin-bottom: 0px;">Row 6</h4>
+        <div class="box6">
+        </div>
+
+        <h4 style="margin-bottom: 0px;">Row 7</h4>
+        <div class="box7">
+        </div>
+
+        <h4 style="margin-bottom: 0px;">Row 8</h4>
+        <div class="box8">
+        </div>
+
+
+        <h4 style="margin-bottom: 0px;">Row 9</h4>
+        <div class="box9">
+        </div>
+        <br>
+        <hr>
+        <p>
+            As you can see,there are 9 rectangle.The styling and makeup of the first two rectangles are already build for you.your task is to apply styling and add div elements inside of the text 7 green rectangular blocks to create a web page that look like this:
+
+        </p>
+        <h5>
+            Assignment 1
+        </h5>
+        <h5>
+            Provide Example
+        </h5>
+        <h4 style="margin-bottom: 0px;">Row 8</h4>
+        <div class="box8">
+            <div class="childbox1"></div>
+        </div>
+        <h4 style="margin-bottom: 0px;">Row 2</h4>
+        <div class="box2">
+            <div class="childbox2"></div>
+        </div>
+        <h4>
+            Student TODOs
+        </h4>
+        <h4 style="margin-bottom: 0px;">Row 3</h4>
+        <div class="boxthree">
+            <div class="childboxthree1"></div>
+            <div class="childboxthree2"></div>
+        </div>
+        <h4 style="margin-bottom: 0px;">Row 4</h4>
+        <div class="boxfour">
+            <div class="childboxfour"></div>
+        </div>
+        
+        <h4 style="margin-bottom: 0px;">Row 5</h4>
+        <div class="boxfive">
+            <div class="childboxfive"></div>
+        </div>
+        <h4 style="margin-bottom: 0px;">Row 6</h4>
+        <div class="boxsix">
+            <div class="childboxsix"></div>
+        </div>
+        <h4 style="margin-bottom: 0px;">Row 7</h4>
+        <div class="boxseven">
+            <div class="childboxseven1"></div>
+            <div class="childboxseven2">
+                <div class="childchildbox2"> </div>
+            </div>
+        </div>
+        <h4 style="margin-bottom: 0px;">Row 8</h4>
+        <div class="boxeight">
+            <div class="childboxeight" style="margin-right:20%;"></div>
+            <div class="childboxeight" style="margin-right:20%;"></div>
+            <div class="childboxeight" style="margin-right:20%;"></div>
+            <div class="childboxeight"></div>
+            <div class="childboxeight" style="float: right;"></div>
+        </div>
+        <h4 style="margin-bottom: 0px;">Row 9</h4>
+        <div class="boxnine">
+            <div class="childboxnine"></div>
+            <div class="childboxnine"></div>
+            <div class="childboxnine"></div>
+            <div class="childboxnine"></div>
+        </div>
+        <p>
+            Note that these rectangular blocks should be responsive.Here is what they look like when the window is thinner: 
+        </p>
+        <div class="section3">
+            <h5>
+                Assignment 1
+            </h5>
+            <h5>
+                Provide Example
+            </h5>
+            <h4 style="margin-bottom: 0px;">Row 8</h4>
+            <div class="box8">
+                <div class="childbox1"></div>
+            </div>
+            <h4 style="margin-bottom: 0px;">Row 2</h4>
+            <div class="box2">
+                <div class="childbox2"></div>
+            </div>
+            <h4 style="margin-bottom: 0px;">Row 3</h4>
+            <div class="boxthree">
+                <div class="childboxthree1"></div>
+                <div class="childboxthree2"></div>
+            </div>
+            <h4 style="margin-bottom: 0px;">Row 4</h4>
+            <div class="boxfour">
+                <div class="childboxfour"></div>
+            </div>
+            
+            <h4 style="margin-bottom: 0px;">Row 5</h4>
+            <div class="boxfive">
+                <div class="childboxfive"></div>
+            </div>
+            <h4 style="margin-bottom: 0px;">Row 6</h4>
+            <div class="boxsix">
+                <div class="childboxsix"></div>
+            </div>
+            <h4 style="margin-bottom: 0px;">Row 7</h4>
+            <div class="boxseven">
+                <div class="childboxseven1"></div>
+                <div class="childboxseven2">
+                    <div class="childchildbox2"> </div>
+                </div>
+            </div>
+            <h4 style="margin-bottom: 0px;">Row 8</h4>
+            <div class="boxnine">
+                <div class="childboxnine"></div>
+                <div class="childboxnine"></div>
+                <div class="childboxnine"></div>
+                <div class="childboxnine"></div>
+            </div>
+
+            <h4 style="margin-bottom: 0px;">Row 9</h4>
+            <div class="boxnine">
+                <div class="childboxnine"></div>
+                <div class="childboxnine"></div>
+                <div class="childboxnine"></div>
+                <div class="childboxnine"></div>
+            </div>
+        </div>
+        <p>
+            We wil describe how each row will benave avnamicallv and provide some nins tor a possible approach
+        </p>
+        <ol>
+            <li>
+                For the third row. the red and blue end rectanales should remain the same with. and the areen space should shrink <br>
+                <br>
+                POssIble Approach. have a div with a red background and a div with a blue background, both with rixed width. Use an appropnate value for <span style="color: burlywood;">justify <br>content</span>
+            </li>
+            <br>
+            <li>
+                For the fourth row the blue end rectanale should remain the same width and the red rectanale should shrink <br>
+                <br>
+                Possible Approach. Have a div with a red background and a div with a blue background. Have a fixed width on the blue div. Use <span style="color: burlywood;">Flex Grow</span>
+            </li>
+            <br>
+            <li>
+                For the fifth row the red sauare should remain the same size but always remain in the center of the areen rectanale <br>
+                <br>
+                <em>Hint: Think about how to keep a div fixed size and how to align something in the absolute center of the parent element</em> 
+            </li>
+            <br>
+            <li>
+                For the sixth row, the blue rectanale should remain the same size, while the red rectangles should shrink.The blue rectanale should remain in the <br>
+                center of the row.
+                <br>
+                <br>
+                <em>
+                    Hint: Use two red divs
+                </em>
+            </li>
+            <br>
+            <li>
+                For the sevent row, the red rectangle should remain the same width. <br>
+                <br>
+                <em>Hint: Nest divs and use <code><span style="color: deeppink;">backaround-color:transparent</span></code></em>
+            </li>
+            <br>
+            <li>
+                For the eighth row, the orange rectangles should remain the same size while the green space between them shrinks. <br>
+
+            </li>
+            <br>
+            <li>
+                For the ninth row,the green space between the orange rectangles should remain the same width while the orange rectangles narrow.
+            </li>
+        </ol>
+        <p>
+            The examples we provided with the first two rectangular blocks use flexboxes.You are not required to use flexboxes for the next 7 rows, but we recommend <br>
+            it as it will also be usetul in part 2 of this assignment.
+        </p>
+        <p>
+            You should only have to use the <code>div</code>html element to complete this assianment.<strong>Also none of the divs vou create inside of the provided wrapper divs <br>
+            should have</strong> <code><span style="color: deeppink;">backaround-color:green;.</span></code> But it is valid to specify non-green background colors for any divs, including the wrapper.
+        </p>
+        <p>
+            Try to style the boxes as closely to the solution image as possible don't worry about getting exact dimensions or rgb values. We care about what structure, <br>
+            CSS styles you used, and the dynamic behavior of the page. However just for reference,
+            <ul>
+                <li>
+                    The color of the boxes we used are <code><span style="color: deeppink;">backaround-color:</span></code> <mark style="background-color: red;">red</mark> , <mark style="background-color:blue;">Blue</mark>, and <mark style="background-color: orange;">orange</mark>
+                </li>
+                <li>
+                    some width/hight values we used are <code><span style="color: deeppink;">20px, 40px, 80px,</span></code>
+                </li>
+            </ul>
+        </p>
+        <p>
+            You are not required to use Bootstrap in this part. You can use if you want. but we actually recommend writing plain CSS. Just for this part. inline CSS is <br>
+            acceptable. but you should generally avoid using inline CSS in the future.
+        </p>
+        <h1>
+            General Notes
+        </h1>
+        <p>
+            As a reminder, it's a good idea to run your HTML and CSS syntax through validators. You should also consider using an accessibility checker such as WAVE
+        </p>
+        <h1>
+            Troubleshooting
+         </h1>
+        <p>
+            There are hundreds of HTML and CSS tags, properties, and values, and we do not expect students to learn each one by heart. However, this assianment <br>
+            and the first lab are intended for you to intuitively understand the languages, and to be proticient at knowing how to tackle a design by the end of the <br>
+            semester.
+        </p>
+        <p>
+            If you're having problems,there are many guides on HTML and CSS online (CSSTricks and MDN are your friends), as well as on our resources page.
+        </p>
+        <p>
+            As always, if you are stuck on a particular part, you can always talk to the friendly TAs or ask questions on course piazza (check your email for a signup link).
+        </p>
+        <p>
+            <strong>
+                As a general rule of thumb, do not expect TAs to be able to solve every web problem you have.Even the most adept web developer can struggle a
+                lot with specitic CSS rules to use.
+            </strong>
+        </p>
+        <br>
+
+
+    </main>
+    <br>
+    <footer>
+        <p class="footerdesign"> &copy; 2022 | All Rights Reserved by Zaman Ali <br>
+            <br><span style="color: burlywood;">Sweetzamanali@gmail.com</span> 
+        </p>
+    </footer>
+</body>
+
+</html>

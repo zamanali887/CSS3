@@ -1,0 +1,11 @@
+
+
+/* light coloring  */
+
+header nav a{
+    background-color: black;
+    color: white;
+}
+main{
+    background-color: aliceblue;
+}

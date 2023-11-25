@@ -1,0 +1,221 @@
+body {
+    background-color: #f8edea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
+.hero {
+    width: 80%;
+    margin: 0% 10%;
+}
+
+#heading1 {
+    text-align: center;
+}
+
+.timedate {
+    text-align: center;
+}
+
+.box1 {
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+}
+
+.childbox1 {
+    width: 50%;
+    background-color: red;
+    height: 40px;
+}
+
+.box2 {
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+}
+
+.childbox2 {
+    width: 95%;
+    background-color: green;
+    height: 40px;
+}
+
+.box3 {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}
+
+.box4 {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}
+
+.box5 {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}
+
+.box6 {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}
+
+.box7 {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}
+
+.box8 {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}
+
+.box9 {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}
+
+.boxthree {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}
+
+.childboxthree2 {
+    width: 5%;
+    background-color: blue;
+    height: 40px;
+    float: right;
+}
+
+.childboxthree1 {
+    width: 5%;
+    background-color: RED;
+    height: 40px;
+    float: left;
+}
+
+.boxfour {
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+}
+
+.childboxfour {
+    width: 95%;
+    background-color: red;
+    height: 40px;
+}
+
+.boxfive {
+    width: 100%;
+    height: 30px;
+    background-color:green;
+    padding-top: 8px;
+}
+
+.childboxfive {
+    width: 30px;
+    background-color: red;
+    height: 25px;
+    margin-left: 47%;
+}
+.boxsix{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+
+}
+.childboxsix{
+    width: 70px;
+    height: 40px;
+    background-color: blue;
+    margin-left: 46%;
+}
+.boxseven {
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+}
+
+.childboxseven1 {
+    width: 6%;
+    background-color: red;
+    height: 40px;
+    float: left;
+}
+.childboxseven2{
+    width: 94%;
+    height: 10px;
+    background-color:blue;
+    padding: 15px 0px;
+    float: right;
+}
+.childchildbox2{
+    width: 100%;
+    height: 10px;
+    background-color:green;
+    float:righ;
+}
+.boxeight{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}
+
+.childboxeight{
+    width: 50px;
+    height: 40px;
+    background-color: #ffb703;
+    float: left;
+}
+
+.boxnine{
+    width: 100%;
+    height: 40px;
+    background-color: #ffb703;
+}
+.childboxnine{
+    width: 10px;
+    height: 40px;
+    background-color: green;
+    float: left;
+    margin-left: 20%;
+}
+.section3{
+    width: 40%;
+    height: 800px;
+    background-color: white;
+}
+
+
+/* footer */
+
+.footerdesign{
+    width: 100%;
+    height: 70px;
+    background-color:#4a4e69;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
